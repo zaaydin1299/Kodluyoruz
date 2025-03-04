@@ -90,5 +90,33 @@ print(f"Şifre: {sifre}")
 #Şifre girişi yanlışsa "Yanlış şifre girildi!" uyarısı verilsin ve üç yanlış denemede program biter.
 #Tercihe göre kalan hak bilgisi verilir.
 
+print("Giriş Ekranına hoş geldiiz! ")
+print("Yükleniyor...") 
+
+Kullancici_isim = "zapepeyz0"
+password = "V2r1_B1l1m1"
+
+deneme_hakki = 3
+
+while True:
+    girilen_kullanici_isim = input("Kullanıcı Adınızı Giriniz: ")
+    # Kullanıcı adı kontrolü
+    if girilen_kullanici_isim != Kullancici_isim:
+        print("Hata: Kullanıcı adı bulunamadı! Lütfen tekrar deneyin.")
+        continue  
+     
+    while deneme_hakki > 0:
+        girilen_sifre = input("Lütfen Şifrenizi Giriniz: ") 
+
+        if girilen_sifre == password and girilen_kullanici_isim == Kullancici_isim: 
+            print("Uygulamanıza giriş yapıldı. ")
+            break 
+
+        else:
+            deneme_hakki -= 1
+            if deneme_hakki > 0:
+                print(f"Yanlış şifre lütfen tekrar deneyiz. Kalan deneme hakkınız: {deneme_hakki}")
+            else:
+                print("Yanlış şifre girildi. Deneme hakkınız sonlandı. Program kapatılıyor... ")
 
 
