@@ -1,4 +1,4 @@
-"""#Kullanıcıdan pi değeri ve yarıçap bilgisi alarak dairenin alanını hesaplayan bir fonksiyon oluşturulur.
+#Kullanıcıdan pi değeri ve yarıçap bilgisi alarak dairenin alanını hesaplayan bir fonksiyon oluşturulur.
 
 import time  # Uygulamanın yüklenmesini ve kapanmasını daha çekici hale getirilmesi
 
@@ -24,8 +24,8 @@ print("\nDairenin Alanı:", round(alan, 3), "\n")  # Boşluk bırakılarak temiz
 
 print("Uygulama Kapatılıyor...\n")
 time.sleep(1)  # Kapanma efekti için 1 saniye bekle ve kapan.
-"""
-"""
+
+
 #Faktöriyel adında fonksiyon oluşturulur. 
 #Döngü kullanarak parametre olarak girilen sayının faktöriyeli hesaplanır. 
 #Format metodunu kullanılarak ekrana yazdırılır.
@@ -84,8 +84,8 @@ while True:
 
 # Uygulama kapanış mesajı
 print("\nUygulama Kapatıldı.\n")
-"""
-"""
+
+
 import time
 from datetime import datetime
 
@@ -140,7 +140,7 @@ while True:
 print("\nUygulama Kapatılıyor...\n")
 time.sleep(1)  # Efekt için bekleme süresi
 print("Uygulama Kapandı.")
-"""
+
 #Doğum yılı ve isim bilgisi verilen fonksiyon kişinin emekli olup olmadığını söylesin.(Kişi 65 yaşında ise emekli olur.)
 #Burada yaş hesabını yukarıdaki örnekteki fonksiyonu kullanarak yapsın.(Yani fonksiyon içinde fonksiyon kullanmanızı istiyorum :)) 
 #Kişi 65 yaşında ya da daha fazlaysa "Emekli oldunuz" yanıtını, 
