@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 #Kullanıcıdan pi değeri ve yarıçap bilgisi alarak dairenin alanını hesaplayan bir fonksiyon oluşturulur.
 
 import time  # Uygulamanın yüklenmesini ve kapanmasını daha çekici hale getirilmesi
@@ -189,7 +189,7 @@ except ValueError:
 # Uygulama kapanış mesajı
 print("\nUygulama Kapatılıyor...\n")
 time.sleep(1)
-=======
+
 #Kullanıcıdan pi değeri ve yarıçap bilgisi alarak dairenin alanını hesaplayan bir fonksiyon oluşturulur.
 
 import time  # Uygulamanın yüklenmesini ve kapanmasını daha çekici hale getirilmesi
@@ -380,5 +380,4 @@ except ValueError:
 # Uygulama kapanış mesajı
 print("\nUygulama Kapatılıyor...\n")
 time.sleep(1)
->>>>>>> cbd9ac08f4d5415da78adb57da2caeff49eee7d0
 print("Uygulama Kapandı.")

@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 def liste_islemleri():
     liste = []  # Boş bir liste oluştur
     islem_gecmisi = []  # İşlem geçmişi listesi
@@ -65,7 +65,7 @@ def liste_islemleri():
 
 # Programı başlat
 liste_islemleri()
-=======
+
 def liste_islemleri():
     liste = []  # Boş bir liste oluştur
     islem_gecmisi = []  # İşlem geçmişi listesi
@@ -132,4 +132,4 @@ def liste_islemleri():
 
 # Programı başlat
 liste_islemleri()
->>>>>>> cbd9ac08f4d5415da78adb57da2caeff49eee7d0
+
